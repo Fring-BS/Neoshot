@@ -1,0 +1,16 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Настройки скриншота",
+  "neoshot.config.custom_file_name": "Формат имени файла",
+  "neoshot.config.custom_file_name.tooltip": "Используйте %time% для времени,\n%world% для имени мира или сервера",
+  "neoshot.config.override_screenshot_key": "Заменить обычный скриншот на Neoshot",
+  "neoshot.config.hide_hud": "Автоматически скрывает интерфейс",
+  "neoshot.config.save_file": "Сохранять файл скриншота",
+  "neoshot.config.disable_gui_scaling": "Отключить масштабирование интерфейса",
+  "neoshot.config.width": "Ширина скриншота",
+  "neoshot.config.height": "Высота скриншота",
+  "neoshot.config.delay": "Задержка скриншота",
+  "neoshot.config.delay.tooltip": "Задержка кадров после изменения размера. Настройка для лучшей экспозиции шейдеров",
+  "neoshot.config.file_format": "Формат файла",
+  "key.neoshot.screenshot": "Сделать большой скриншот"
+}

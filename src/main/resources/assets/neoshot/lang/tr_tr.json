@@ -1,0 +1,16 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Ekran görüntüsü ayarları",
+  "neoshot.config.custom_file_name": "Başka dosya ismi formatı kullan",
+  "neoshot.config.custom_file_name.tooltip": "Zaman için %time%,\n dünya ya da sunucu adı için %world% kullanın",
+  "neoshot.config.override_screenshot_key": "Normal ekran görüntüsünü Neoshot ile değiştir",
+  "neoshot.config.hide_hud": "HUD'ı otomatik olarak gizle",
+  "neoshot.config.save_file": "Ekran görüntüsü dosyasını kaydet",
+  "neoshot.config.disable_gui_scaling": "Arayüz ölçeğini kapat",
+  "neoshot.config.width": "Ekran görüntüsü eni",
+  "neoshot.config.height": "Ekran görüntüsü boyu",
+  "neoshot.config.delay": "Yakalama gecikmesi",
+  "neoshot.config.delay.tooltip": "Yeniden boyutlandırmadan sonra beklenecek kare. Shaderlar ile daha iyi pozlama için kurcalayabilirsiniz",
+  "neoshot.config.file_format": "Dosya formatı",
+  "key.neoshot.screenshot": "Büyük Ekran Görüntüsü Alma"
+}
