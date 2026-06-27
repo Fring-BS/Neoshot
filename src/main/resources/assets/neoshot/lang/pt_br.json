@@ -1,0 +1,13 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Configuração da captura de tela",
+  "neoshot.config.custom_file_name": "Usar formato de nome de arquivo diferente",
+  "neoshot.config.custom_file_name.tooltip": "Use %time% para o tempo,\n %world% para o mundo ou nome do servidor",
+  "neoshot.config.override_screenshot_key": "Substitua a captura de tela normal com Neoshot",
+  "neoshot.config.save_file": "Salve o arquivo de captura de tela",
+  "neoshot.config.width": "Largura da captura de tela",
+  "neoshot.config.height": "Altura da captura de tela",
+  "neoshot.config.delay": "Atraso de captura",
+  "neoshot.config.delay.tooltip": "Quadros para aguardar após o redimensionamento. Ajuste para melhor exposição com shaders",
+  "key.neoshot.screenshot": "Captura de tela grande"
+}

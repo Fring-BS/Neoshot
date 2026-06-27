@@ -1,0 +1,16 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Configuration de capture d'écran",
+  "neoshot.config.custom_file_name": "Utiliser un format de nom de fichier différent",
+  "neoshot.config.custom_file_name.tooltip": "Utilisez %time% pour l'heure,\n %world% pour le monde ou le nom du serveur",
+  "neoshot.config.override_screenshot_key": "Remplacer la capture d'écran normale par Neoshot",
+  "neoshot.config.hide_hud": "Masquer automatiquement l'interface utilisateur (HUD)",
+  "neoshot.config.save_file": "Enregistrer le fichier de capture d'écran",
+  "neoshot.config.disable_gui_scaling": "Désactiver le redimensionnement de l'interface utilisateur (GUI)",
+  "neoshot.config.width": "Largeur de la capture d'écran",
+  "neoshot.config.height": "Hauteur de la capture d'écran",
+  "neoshot.config.delay": "Délai de capture",
+  "neoshot.config.delay.tooltip": "Images à attendre après le redimensionnement. Ajustez pour une meilleure exposition avec des shaders",
+  "neoshot.config.file_format": "Format de fichier",
+  "key.neoshot.screenshot": "Prendre une grande capture d'écran"
+}
