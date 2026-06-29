@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "截图配置",
+  "prismshot.config.custom_file_name": "使用不同的文件名格式",
+  "prismshot.config.custom_file_name.tooltip": "使用 %time% 来表示时间，\n使用 %world% 来表示世界或服务器名称。",
+  "prismshot.config.override_screenshot_key": "使用 Prismshot 替换原版默认的截图功能",
+  "prismshot.config.hide_hud": "自动隐藏 HUD",
+  "prismshot.config.save_file": "保存截图文件",
+  "prismshot.config.disable_gui_scaling": "禁用界面尺寸缩放",
+  "prismshot.config.width": "截图宽度",
+  "prismshot.config.height": "截图高度",
+  "prismshot.config.delay": "截图延迟",
+  "prismshot.config.delay.tooltip": "图像尺寸调整完毕后，在截图前需要等待的帧数。\n在使用光影时，若想在截图时获得更好的曝光效果，则需要调整该值。",
+  "prismshot.config.file_format": "文件格式",
+  "key.prismshot.screenshot": "截图（高分辨率）"
+}

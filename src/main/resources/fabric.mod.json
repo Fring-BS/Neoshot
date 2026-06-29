@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "prismshot",
+  "version": "${version}",
+  "icon": "assets/prismshot/icon.png",
+  "environment": "client",
+  "mixins": [
+    "prismshot.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "me.fring.prismshot.Prismshot"
+    ],
+    "modmenu": [
+      "me.fring.prismshot.config.ModMenuBridge"
+    ]
+  },
+  "name": "Prismshot",
+  "description": "Take high resolution screenshots because why not. Fabric fork of Fabrishot.",
+  "depends": {
+    "minecraft": ">=26.1- <26.2-",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "modmenu": "*",
+    "cloth-config2": "*"
+  },
+  "authors": [
+    "Fring"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fring-BS/Prismshot#readme",
+    "issues": "https://github.com/Fring-BS/Prismshot/issues",
+    "sources": "https://github.com/Fring-BS/Prismshot"
+  }
+}

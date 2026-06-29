@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Configuration de capture d'écran",
+  "prismshot.config.custom_file_name": "Utiliser un format de nom de fichier différent",
+  "prismshot.config.custom_file_name.tooltip": "Utilisez %time% pour l'heure,\n %world% pour le monde ou le nom du serveur",
+  "prismshot.config.override_screenshot_key": "Remplacer la capture d'écran normale par Prismshot",
+  "prismshot.config.hide_hud": "Masquer automatiquement l'interface utilisateur (HUD)",
+  "prismshot.config.save_file": "Enregistrer le fichier de capture d'écran",
+  "prismshot.config.disable_gui_scaling": "Désactiver le redimensionnement de l'interface utilisateur (GUI)",
+  "prismshot.config.width": "Largeur de la capture d'écran",
+  "prismshot.config.height": "Hauteur de la capture d'écran",
+  "prismshot.config.delay": "Délai de capture",
+  "prismshot.config.delay.tooltip": "Images à attendre après le redimensionnement. Ajustez pour une meilleure exposition avec des shaders",
+  "prismshot.config.file_format": "Format de fichier",
+  "key.prismshot.screenshot": "Prendre une grande capture d'écran"
+}

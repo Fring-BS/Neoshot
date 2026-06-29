@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "螢幕擷取畫面設定",
+  "prismshot.config.custom_file_name": "使用不同的檔案名稱格式",
+  "prismshot.config.custom_file_name.tooltip": "用 %time% 代替時間，\n用 %world% 代替世界或伺服器名稱",
+  "prismshot.config.override_screenshot_key": "用 Prismshot 覆蓋一般螢幕擷取畫面",
+  "prismshot.config.hide_hud": "自動隱藏 HUD",
+  "prismshot.config.save_file": "儲存螢幕擷取畫面檔案",
+  "prismshot.config.disable_gui_scaling": "停用介面大小",
+  "prismshot.config.width": "螢幕擷取畫面寬度",
+  "prismshot.config.height": "螢幕擷取畫面高度",
+  "prismshot.config.delay": "螢幕擷取畫面延遲",
+  "prismshot.config.delay.tooltip": "調整大小後等待 FPS，使用光影包調整曝光以達到更好的效果",
+  "prismshot.config.file_format": "檔案格式",
+  "key.prismshot.screenshot": "高解析度擷取螢幕畫面"
+}

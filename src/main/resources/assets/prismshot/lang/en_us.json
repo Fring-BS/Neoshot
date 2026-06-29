@@ -1,0 +1,18 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Screenshot configuration",
+  "prismshot.config.custom_file_name": "Use different filename format",
+  "prismshot.config.custom_file_name.tooltip": "Use %time% for the time,\n %world% for world or server name",
+  "prismshot.config.override_screenshot_key": "Override normal screenshot with Prismshot",
+  "prismshot.config.hide_hud": "Automatically hide the HUD",
+  "prismshot.config.save_file": "Save the screenshot file",
+  "prismshot.config.width": "Screenshot width",
+  "prismshot.config.height": "Screenshot height",
+  "prismshot.config.delay": "Capture delay",
+  "prismshot.config.delay.tooltip": "Frames to wait after resizing. Tweak for better exposure with shaders",
+  "prismshot.config.file_format": "File format",
+  "key.prismshot.screenshot": "Take large screenshot",
+  "key.prismshot.config": "Open Prismshot config",
+  "key.prismshot.gallery": "Open Screenshot Gallery",
+  "prismshot.gallery.title": "Screenshot Gallery"
+}

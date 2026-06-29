@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Cấu hình ảnh chụp màn hình",
+  "prismshot.config.custom_file_name": "Sử dụng định dạng tên tệp khác",
+  "prismshot.config.custom_file_name.tooltip": "Sử dụng %time% cho thời gian,\n %world% cho tên thế giới hoặc máy chủ",
+  "prismshot.config.override_screenshot_key": "Ghi đè ảnh chụp màn hình bình thường bằng Prismshot",
+  "prismshot.config.hide_hud": "Tự động ẩn HUD",
+  "prismshot.config.save_file": "Lưu tệp ảnh chụp màn hình",
+  "prismshot.config.disable_gui_scaling": "Tắt mở rộng GUI",
+  "prismshot.config.width": "Chiều rộng ảnh chụp màn hình",
+  "prismshot.config.height": "Chiều cao ảnh chụp màn hình",
+  "prismshot.config.delay": "Độ trễ chụp",
+  "prismshot.config.delay.tooltip": "Số khung hình chờ sau khi thay đổi kích thước. Tinh chỉnh để hiển thị tốt hơn với shader",
+  "prismshot.config.file_format": "Định dạng tệp",
+  "key.prismshot.screenshot": "Chụp ảnh màn hình lớn"
+}

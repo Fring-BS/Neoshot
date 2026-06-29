@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Skärmdumps konfiguration",
+  "prismshot.config.custom_file_name": "Använd ett annat filfromat",
+  "prismshot.config.custom_file_name.tooltip": "Använd %time% för tid,\n %world% för värld eller servernamn",
+  "prismshot.config.override_screenshot_key": "Override normal screenshot with Prismshot",
+  "prismshot.config.hide_hud": "Göm HUD automatiskt",
+  "prismshot.config.save_file": "Spara skärmdumpsfilen",
+  "prismshot.config.disable_gui_scaling": "Disable GUI scaling",
+  "prismshot.config.width": "Skärmdumpsbredd",
+  "prismshot.config.height": "Skärmdumpshöjd",
+  "prismshot.config.delay": "Fördröjning för bild",
+  "prismshot.config.delay.tooltip": "Frames att vänta efter resizing. Ändra för bättre exponering med shaders",
+  "prismshot.config.file_format": "Filformat",
+  "key.prismshot.screenshot": "Ta stor skärmdump"
+}

@@ -1,0 +1,13 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Kuvankaappauksen asetukset",
+  "prismshot.config.custom_file_name": "Käytä omaa tiedostonimimuotoa",
+  "prismshot.config.custom_file_name.tooltip": "%time% korvataan ajalla,\n %world% maailman tai palvelimen nimellä",
+  "prismshot.config.override_screenshot_key": "Korvaa tavallinen kuvankaappaus Prismshotilla",
+  "prismshot.config.save_file": "Tallenna kuvankaappaustiedosto",
+  "prismshot.config.width": "Kuvankaappauksen leveys",
+  "prismshot.config.height": "Kuvankaappauksen korkeus",
+  "prismshot.config.delay": "Kaappauksen viive",
+  "prismshot.config.delay.tooltip": "Skaalauksen jälkeen odotettavien kuvien määrä. Säädä parempaa valotusta varten varjostimien kanssa",
+  "key.prismshot.screenshot": "Ota suuri kuvankaappaus"
+}
