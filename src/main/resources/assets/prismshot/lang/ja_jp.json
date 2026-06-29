@@ -1,0 +1,16 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "スクリーンショット設定",
+  "neoshot.config.custom_file_name": "ファイル名テンプレート",
+  "neoshot.config.custom_file_name.tooltip": "「%time%」は撮影日時に、「%world%」はワールド名またはサーバー名に置き換えられます。",
+  "neoshot.config.override_screenshot_key": "通常のスクリーンショットを置き換える",
+  "neoshot.config.hide_hud": "GUIを自動で隠す",
+  "neoshot.config.save_file": "スクリーンショットをファイルに保存",
+  "neoshot.config.disable_gui_scaling": "GUIを拡大しない",
+  "neoshot.config.width": "スクリーンショットの幅",
+  "neoshot.config.height": "スクリーンショットの高さ",
+  "neoshot.config.delay": "露光フレーム数",
+  "neoshot.config.delay.tooltip": "撮影前に待機するフレーム数。シェーダーの露出やボケを微調整できます。",
+  "neoshot.config.file_format": "ファイル形式",
+  "key.neoshot.screenshot": "高解像度スクリーンショットの撮影"
+}

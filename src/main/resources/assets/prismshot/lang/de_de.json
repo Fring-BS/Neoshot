@@ -1,0 +1,13 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Screenshot Größe",
+  "neoshot.config.custom_file_name": "Anderes Dateinamenformat verwenden",
+  "neoshot.config.custom_file_name.tooltip": "Verwende %time% für die Uhrzeit,\n %world% für den Welt- oder Server Bild-namen",
+  "neoshot.config.override_screenshot_key": "Normalen Screenshot mit Neoshot überschreiben",
+  "neoshot.config.save_file": "Speichert die Screenshot-Datei",
+  "neoshot.config.width": "Screenshot Breite",
+  "neoshot.config.height": "Screenshot Höhe",
+  "neoshot.config.delay": "Aufnahmeverzögerung",
+  "neoshot.config.delay.tooltip": "Bilder die sekunde, die nach der Größenänderung warten. Diesen wert anpassen für bessere Belichtungszeiten mit Shadern",
+  "key.neoshot.screenshot": "Großes Bild aufnehmen"
+}

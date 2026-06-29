@@ -1,0 +1,13 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Kuvatõmmise suurus",
+  "neoshot.config.custom_file_name": "Use different filename format",
+  "neoshot.config.custom_file_name.tooltip": "Use %time% for the time,\n %world% for world or server name",
+  "neoshot.config.override_screenshot_key": "Tee tavalise kuvatõmmise asemel Neoshoti kuvatõmmis",
+  "neoshot.config.save_file": "Save the screenshot file",
+  "neoshot.config.width": "Kuvatõmmise laius",
+  "neoshot.config.height": "Kuvatõmmise kõrgus",
+  "neoshot.config.delay": "Capture delay",
+  "neoshot.config.delay.tooltip": "Frames to wait after resizing. Tweak for better exposure with shaders",
+  "key.neoshot.screenshot": "Loo suur kuvatõmmis"
+}

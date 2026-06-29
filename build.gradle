@@ -1,0 +1,64 @@
+plugins {
+    id("net.neoforged.moddev") version "2.0.140"
+}
+
+group = "me.fring"
+version = System.getenv("PRISMSHOT_VERSION") ?: "1.1.0-neoforge-26.1"
+
+String minecraft_version = "26.1.2"
+String neoforge_version = "26.1.2.76"
+
+repositories {
+    maven {
+        name = "shedaniel"
+        url = uri("https://maven.shedaniel.me/")
+
+        content {
+            includeGroup("me.shedaniel.cloth")
+        }
+    }
+}
+
+dependencies {
+    implementation("me.shedaniel.cloth:cloth-config-neoforge:26.1.154")
+}
+
+neoForge {
+    version = neoforge_version
+
+    runs {
+        client {
+            client()
+        }
+    }
+
+    mods {
+        prismshot {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+processResources {
+    inputs.property("version", project.version)
+    inputs.property("minecraft_version", minecraft_version)
+
+    from("LICENSE")
+
+    filesMatching("META-INF/neoforge.mods.toml") {
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [
+            'version': project.version,
+            'minecraft_version': minecraft_version
+        ])
+    }
+}

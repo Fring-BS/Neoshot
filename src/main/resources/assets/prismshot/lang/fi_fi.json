@@ -1,0 +1,13 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Kuvankaappauksen asetukset",
+  "neoshot.config.custom_file_name": "Käytä omaa tiedostonimimuotoa",
+  "neoshot.config.custom_file_name.tooltip": "%time% korvataan ajalla,\n %world% maailman tai palvelimen nimellä",
+  "neoshot.config.override_screenshot_key": "Korvaa tavallinen kuvankaappaus Neoshotilla",
+  "neoshot.config.save_file": "Tallenna kuvankaappaustiedosto",
+  "neoshot.config.width": "Kuvankaappauksen leveys",
+  "neoshot.config.height": "Kuvankaappauksen korkeus",
+  "neoshot.config.delay": "Kaappauksen viive",
+  "neoshot.config.delay.tooltip": "Skaalauksen jälkeen odotettavien kuvien määrä. Säädä parempaa valotusta varten varjostimien kanssa",
+  "key.neoshot.screenshot": "Ota suuri kuvankaappaus"
+}

@@ -1,0 +1,18 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Screenshot configuration",
+  "neoshot.config.custom_file_name": "Use different filename format",
+  "neoshot.config.custom_file_name.tooltip": "Use %time% for the time,\n %world% for world or server name",
+  "neoshot.config.override_screenshot_key": "Override normal screenshot with Neoshot",
+  "neoshot.config.hide_hud": "Automatically hide the HUD",
+  "neoshot.config.save_file": "Save the screenshot file",
+  "neoshot.config.width": "Screenshot width",
+  "neoshot.config.height": "Screenshot height",
+  "neoshot.config.delay": "Capture delay",
+  "neoshot.config.delay.tooltip": "Frames to wait after resizing. Tweak for better exposure with shaders",
+  "neoshot.config.file_format": "File format",
+  "key.neoshot.screenshot": "Take large screenshot",
+  "key.neoshot.config": "Open Neoshot config",
+  "key.neoshot.gallery": "Open Screenshot Gallery",
+  "neoshot.gallery.title": "Screenshot Gallery"
+}
