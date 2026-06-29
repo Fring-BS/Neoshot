@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.fring.prismshot.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "OptionsMixin",
+    "WindowAccessor",
+    "WindowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

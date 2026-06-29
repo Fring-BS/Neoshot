@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Налады скрыншотаў",
+  "prismshot.config.custom_file_name": "Выкарыстоўваць іншую назву файла",
+  "prismshot.config.custom_file_name.tooltip": "Выкарыстоўваць %time% для часу,\n %world% для свету ці серверу",
+  "prismshot.config.override_screenshot_key": "Перазапісаць звычайны скрыншот Prismshot",
+  "prismshot.config.hide_hud": "Аўтаматычна хаваць HUD",
+  "prismshot.config.save_file": "Захаваць файл скрыншоту",
+  "prismshot.config.disable_gui_scaling": "Адключыць маштабаванне GUI",
+  "prismshot.config.width": "Щырыня скрыншоту",
+  "prismshot.config.height": "Вышыня скрыншоту",
+  "prismshot.config.delay": "Затрымка скрыншота",
+  "prismshot.config.delay.tooltip": "Кадры, якія чакаюць пасля змены памеру. Наладзьце лепшую экспазіцыю з дапамогай шэйдараў",
+  "prismshot.config.file_format": "Фармат файла",
+  "key.prismshot.screenshot": "Зрабіць вялікі скрыншот"
+}

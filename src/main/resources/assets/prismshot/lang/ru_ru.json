@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Настройки скриншота",
+  "prismshot.config.custom_file_name": "Формат имени файла",
+  "prismshot.config.custom_file_name.tooltip": "Используйте %time% для времени,\n%world% для имени мира или сервера",
+  "prismshot.config.override_screenshot_key": "Заменить обычный скриншот на Prismshot",
+  "prismshot.config.hide_hud": "Автоматически скрывает интерфейс",
+  "prismshot.config.save_file": "Сохранять файл скриншота",
+  "prismshot.config.disable_gui_scaling": "Отключить масштабирование интерфейса",
+  "prismshot.config.width": "Ширина скриншота",
+  "prismshot.config.height": "Высота скриншота",
+  "prismshot.config.delay": "Задержка скриншота",
+  "prismshot.config.delay.tooltip": "Задержка кадров после изменения размера. Настройка для лучшей экспозиции шейдеров",
+  "prismshot.config.file_format": "Формат файла",
+  "key.prismshot.screenshot": "Сделать большой скриншот"
+}

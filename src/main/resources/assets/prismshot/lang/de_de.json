@@ -1,0 +1,13 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Screenshot Größe",
+  "prismshot.config.custom_file_name": "Anderes Dateinamenformat verwenden",
+  "prismshot.config.custom_file_name.tooltip": "Verwende %time% für die Uhrzeit,\n %world% für den Welt- oder Server Bild-namen",
+  "prismshot.config.override_screenshot_key": "Normalen Screenshot mit Prismshot überschreiben",
+  "prismshot.config.save_file": "Speichert die Screenshot-Datei",
+  "prismshot.config.width": "Screenshot Breite",
+  "prismshot.config.height": "Screenshot Höhe",
+  "prismshot.config.delay": "Aufnahmeverzögerung",
+  "prismshot.config.delay.tooltip": "Bilder die sekunde, die nach der Größenänderung warten. Diesen wert anpassen für bessere Belichtungszeiten mit Shadern",
+  "key.prismshot.screenshot": "Großes Bild aufnehmen"
+}

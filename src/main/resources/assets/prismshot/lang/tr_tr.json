@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Ekran görüntüsü ayarları",
+  "prismshot.config.custom_file_name": "Başka dosya ismi formatı kullan",
+  "prismshot.config.custom_file_name.tooltip": "Zaman için %time%,\n dünya ya da sunucu adı için %world% kullanın",
+  "prismshot.config.override_screenshot_key": "Normal ekran görüntüsünü Prismshot ile değiştir",
+  "prismshot.config.hide_hud": "HUD'ı otomatik olarak gizle",
+  "prismshot.config.save_file": "Ekran görüntüsü dosyasını kaydet",
+  "prismshot.config.disable_gui_scaling": "Arayüz ölçeğini kapat",
+  "prismshot.config.width": "Ekran görüntüsü eni",
+  "prismshot.config.height": "Ekran görüntüsü boyu",
+  "prismshot.config.delay": "Yakalama gecikmesi",
+  "prismshot.config.delay.tooltip": "Yeniden boyutlandırmadan sonra beklenecek kare. Shaderlar ile daha iyi pozlama için kurcalayabilirsiniz",
+  "prismshot.config.file_format": "Dosya formatı",
+  "key.prismshot.screenshot": "Büyük Ekran Görüntüsü Alma"
+}

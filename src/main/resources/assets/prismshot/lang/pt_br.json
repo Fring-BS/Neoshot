@@ -1,0 +1,13 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Configuração da captura de tela",
+  "prismshot.config.custom_file_name": "Usar formato de nome de arquivo diferente",
+  "prismshot.config.custom_file_name.tooltip": "Use %time% para o tempo,\n %world% para o mundo ou nome do servidor",
+  "prismshot.config.override_screenshot_key": "Substitua a captura de tela normal com Prismshot",
+  "prismshot.config.save_file": "Salve o arquivo de captura de tela",
+  "prismshot.config.width": "Largura da captura de tela",
+  "prismshot.config.height": "Altura da captura de tela",
+  "prismshot.config.delay": "Atraso de captura",
+  "prismshot.config.delay.tooltip": "Quadros para aguardar após o redimensionamento. Ajuste para melhor exposição com shaders",
+  "key.prismshot.screenshot": "Captura de tela grande"
+}

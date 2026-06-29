@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Screenshot configuratie",
+  "prismshot.config.custom_file_name": "Gebruik een ander formaat voor bestandsnaam",
+  "prismshot.config.custom_file_name.tooltip": "Gebruik %time% voor de tijd,\n %world% voor de naam van de wereld of server",
+  "prismshot.config.override_screenshot_key": "Vervang normale screenshot met Prismshot",
+  "prismshot.config.hide_hud": "Verberg de HUD automatisch",
+  "prismshot.config.save_file": "Sla het screenshotbestand op",
+  "prismshot.config.disable_gui_scaling": "Zet GUI schaalvergroting uit",
+  "prismshot.config.width": "Screenshot breedte",
+  "prismshot.config.height": "Screenshot hoogte",
+  "prismshot.config.delay": "Opname vertraging",
+  "prismshot.config.delay.tooltip": "Frames te wachten na het wijzigen van de grootte. Verander voor betere belichting met shaders",
+  "prismshot.config.file_format": "Bestandsformaat",
+  "key.prismshot.screenshot": "Neem een grote screenshot"
+}

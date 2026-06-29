@@ -1,0 +1,63 @@
+buildscript {
+    repositories {
+        maven { url = "https://maven.fabricmc.net/" }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath("net.fabricmc:fabric-loom:1.9.2")
+    }
+}
+
+apply plugin: "fabric-loom"
+
+group = "me.fring"
+version = System.getenv("PRISMSHOT_VERSION") ?: "1.0.0-fabric-1.21.11"
+
+String minecraft_version = "1.21.11"
+
+repositories {
+    maven {
+        name = "TerraformersMC"
+        url = uri("https://maven.terraformersmc.com/releases/")
+    }
+    maven {
+        name = "shedaniel"
+        url = uri("https://maven.shedaniel.me/")
+    }
+    flatDir {
+        dirs("libs")
+    }
+}
+
+dependencies {
+    minecraft("com.mojang:minecraft:${minecraft_version}")
+    mappings(loom.officialMojangMappings())
+    modImplementation("net.fabricmc:fabric-loader:0.16.10")
+
+    // Cloth Config and ModMenu from local libs (access widener removed from Cloth Config
+    // to work with Loom 1.9.x which requires official namespace).
+    modCompileOnly(files("libs/cloth-config-fabric-17.0.144.jar"))
+    modCompileOnly(files("libs/modmenu-12.0.0-beta.1.jar"))
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+processResources {
+    inputs.property("version", project.version)
+    inputs.property("minecraft_version", minecraft_version)
+
+    from("LICENSE")
+
+    filesMatching("fabric.mod.json") {
+        expand("version": project.version, "minecraft_version": minecraft_version)
+    }
+}
