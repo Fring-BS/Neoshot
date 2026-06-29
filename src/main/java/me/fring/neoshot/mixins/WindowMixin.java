@@ -1,0 +1,48 @@
+/*
+ * MIT License
+ *
+ * Copyright (c) 2025 Ramid Khan
+ * Copyright (c) 2026 Fring (Neoshot fork)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+package me.fring.neoshot.mixins;
+
+import com.mojang.blaze3d.platform.Window;
+import org.spongepowered.asm.mixin.Mixin;
+
+/**
+ * No method overrides needed.
+ * <p>
+ * The framebuffer dimensions are set directly via {@link WindowAccessor} (modifying the
+ * private {@code framebufferWidth}/{@code framebufferHeight} fields), which makes
+ * {@code getWidth()}/{@code getHeight()} return the capture dimensions naturally.
+ * <p>
+ * {@code setGuiScale} is then called to recalculate {@code guiScaledWidth}/
+ * {@code guiScaledHeight} from the new framebuffer dimensions, keeping the invariant
+ * {@code guiScaledWidth × guiScale == framebufferWidth} intact.
+ * <p>
+ * This fixes the scissor rectangle calculation in {@code GuiRenderer.enableScissor},
+ * which was clipping the HUD out of the screenshot.
+ */
+@Mixin(Window.class)
+public class WindowMixin {
+    // Intentionally empty — see WindowAccessor for the actual implementation.
+}

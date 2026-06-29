@@ -1,0 +1,16 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Skärmdumps konfiguration",
+  "neoshot.config.custom_file_name": "Använd ett annat filfromat",
+  "neoshot.config.custom_file_name.tooltip": "Använd %time% för tid,\n %world% för värld eller servernamn",
+  "neoshot.config.override_screenshot_key": "Override normal screenshot with Neoshot",
+  "neoshot.config.hide_hud": "Göm HUD automatiskt",
+  "neoshot.config.save_file": "Spara skärmdumpsfilen",
+  "neoshot.config.disable_gui_scaling": "Disable GUI scaling",
+  "neoshot.config.width": "Skärmdumpsbredd",
+  "neoshot.config.height": "Skärmdumpshöjd",
+  "neoshot.config.delay": "Fördröjning för bild",
+  "neoshot.config.delay.tooltip": "Frames att vänta efter resizing. Ändra för bättre exponering med shaders",
+  "neoshot.config.file_format": "Filformat",
+  "key.neoshot.screenshot": "Ta stor skärmdump"
+}

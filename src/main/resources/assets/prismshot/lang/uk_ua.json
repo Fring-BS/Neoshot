@@ -1,0 +1,13 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Розмір знімку екрана",
+  "neoshot.config.custom_file_name": "Використовувати інший формат назви файлу",
+  "neoshot.config.custom_file_name.tooltip": "Умовні позначення:\n%time% - час створення знімку\n%world% - назва світу або серверу",
+  "neoshot.config.override_screenshot_key": "Замінити стандартний знімок на Neoshot",
+  "neoshot.config.save_file": "Зберегти файл знімка",
+  "neoshot.config.width": "Ширина знімка",
+  "neoshot.config.height": "Висота знімка",
+  "neoshot.config.delay": "Затримка знімка",
+  "neoshot.config.delay.tooltip": "Кількість кадрів очікування після зміни розміру. Змінюйте цей параметр для кращої експозиції з шейдерами",
+  "key.neoshot.screenshot": "Зробити великий знімок"
+}
