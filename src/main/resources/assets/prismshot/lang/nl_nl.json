@@ -1,0 +1,16 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Screenshot configuratie",
+  "neoshot.config.custom_file_name": "Gebruik een ander formaat voor bestandsnaam",
+  "neoshot.config.custom_file_name.tooltip": "Gebruik %time% voor de tijd,\n %world% voor de naam van de wereld of server",
+  "neoshot.config.override_screenshot_key": "Vervang normale screenshot met Neoshot",
+  "neoshot.config.hide_hud": "Verberg de HUD automatisch",
+  "neoshot.config.save_file": "Sla het screenshotbestand op",
+  "neoshot.config.disable_gui_scaling": "Zet GUI schaalvergroting uit",
+  "neoshot.config.width": "Screenshot breedte",
+  "neoshot.config.height": "Screenshot hoogte",
+  "neoshot.config.delay": "Opname vertraging",
+  "neoshot.config.delay.tooltip": "Frames te wachten na het wijzigen van de grootte. Verander voor betere belichting met shaders",
+  "neoshot.config.file_format": "Bestandsformaat",
+  "key.neoshot.screenshot": "Neem een grote screenshot"
+}

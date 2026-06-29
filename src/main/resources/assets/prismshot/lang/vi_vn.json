@@ -1,0 +1,16 @@
+{
+  "neoshot.config.title": "Neoshot",
+  "neoshot.config.category": "Cấu hình ảnh chụp màn hình",
+  "neoshot.config.custom_file_name": "Sử dụng định dạng tên tệp khác",
+  "neoshot.config.custom_file_name.tooltip": "Sử dụng %time% cho thời gian,\n %world% cho tên thế giới hoặc máy chủ",
+  "neoshot.config.override_screenshot_key": "Ghi đè ảnh chụp màn hình bình thường bằng Neoshot",
+  "neoshot.config.hide_hud": "Tự động ẩn HUD",
+  "neoshot.config.save_file": "Lưu tệp ảnh chụp màn hình",
+  "neoshot.config.disable_gui_scaling": "Tắt mở rộng GUI",
+  "neoshot.config.width": "Chiều rộng ảnh chụp màn hình",
+  "neoshot.config.height": "Chiều cao ảnh chụp màn hình",
+  "neoshot.config.delay": "Độ trễ chụp",
+  "neoshot.config.delay.tooltip": "Số khung hình chờ sau khi thay đổi kích thước. Tinh chỉnh để hiển thị tốt hơn với shader",
+  "neoshot.config.file_format": "Định dạng tệp",
+  "key.neoshot.screenshot": "Chụp ảnh màn hình lớn"
+}
