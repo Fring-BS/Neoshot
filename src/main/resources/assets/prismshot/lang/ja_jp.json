@@ -1,0 +1,16 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "スクリーンショット設定",
+  "prismshot.config.custom_file_name": "ファイル名テンプレート",
+  "prismshot.config.custom_file_name.tooltip": "「%time%」は撮影日時に、「%world%」はワールド名またはサーバー名に置き換えられます。",
+  "prismshot.config.override_screenshot_key": "通常のスクリーンショットを置き換える",
+  "prismshot.config.hide_hud": "GUIを自動で隠す",
+  "prismshot.config.save_file": "スクリーンショットをファイルに保存",
+  "prismshot.config.disable_gui_scaling": "GUIを拡大しない",
+  "prismshot.config.width": "スクリーンショットの幅",
+  "prismshot.config.height": "スクリーンショットの高さ",
+  "prismshot.config.delay": "露光フレーム数",
+  "prismshot.config.delay.tooltip": "撮影前に待機するフレーム数。シェーダーの露出やボケを微調整できます。",
+  "prismshot.config.file_format": "ファイル形式",
+  "key.prismshot.screenshot": "高解像度スクリーンショットの撮影"
+}

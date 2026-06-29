@@ -1,0 +1,13 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Розмір знімку екрана",
+  "prismshot.config.custom_file_name": "Використовувати інший формат назви файлу",
+  "prismshot.config.custom_file_name.tooltip": "Умовні позначення:\n%time% - час створення знімку\n%world% - назва світу або серверу",
+  "prismshot.config.override_screenshot_key": "Замінити стандартний знімок на Prismshot",
+  "prismshot.config.save_file": "Зберегти файл знімка",
+  "prismshot.config.width": "Ширина знімка",
+  "prismshot.config.height": "Висота знімка",
+  "prismshot.config.delay": "Затримка знімка",
+  "prismshot.config.delay.tooltip": "Кількість кадрів очікування після зміни розміру. Змінюйте цей параметр для кращої експозиції з шейдерами",
+  "key.prismshot.screenshot": "Зробити великий знімок"
+}

@@ -1,0 +1,13 @@
+{
+  "prismshot.config.title": "Prismshot",
+  "prismshot.config.category": "Kuvatõmmise suurus",
+  "prismshot.config.custom_file_name": "Use different filename format",
+  "prismshot.config.custom_file_name.tooltip": "Use %time% for the time,\n %world% for world or server name",
+  "prismshot.config.override_screenshot_key": "Tee tavalise kuvatõmmise asemel Prismshoti kuvatõmmis",
+  "prismshot.config.save_file": "Save the screenshot file",
+  "prismshot.config.width": "Kuvatõmmise laius",
+  "prismshot.config.height": "Kuvatõmmise kõrgus",
+  "prismshot.config.delay": "Capture delay",
+  "prismshot.config.delay.tooltip": "Frames to wait after resizing. Tweak for better exposure with shaders",
+  "key.prismshot.screenshot": "Loo suur kuvatõmmis"
+}
